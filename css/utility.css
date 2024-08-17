@@ -1,0 +1,62 @@
+:root {
+  --invert: 1;
+  --invert2: 0;
+  --a: 0;
+  --bg-body: #000000;
+  --bg-grey: #121212;
+  --bg-scrollbar: #333333;
+  --bg-header: #262626;
+  --bg-card: #121212;
+  --bg-card-hover:#222222;
+  --bg-playbar:#052005;
+  --bg-seekbar:#303a30;
+  --color-body: #ffffff;
+}
+.light-theme{
+  --invert: 0;
+  --invert2: 1;
+  --bg-body: #bec5c5;
+  --bg-grey: #ffffff;
+  --bg-scrollbar: #d4d1d1;
+  --bg-header: #bfe9e3;
+  --bg-card:#ffffff;
+  --bg-card-hover:#d0eae6;
+  --bg-playbar:#73c9c2;
+  --bg-seekbar:#5e6462;
+  --color-body: #000000;
+}
+
+
+
+.border{
+    border: 2px solid  red;
+    margin: 3px;
+}
+.flex{
+    display: flex;
+}
+.justify-center{
+    justify-content: center;
+}
+.items-center{
+    align-items: center;
+}
+.rounded{
+    border-radius: 17px;
+}
+
+/* For WebKit browsers (e.g., Chrome, Safari) */
+::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+  ::-webkit-scrollbar-track {
+    /* background: #333; Track color */
+    background: var(--bg-scrollbar-thump);
+  }
+  
+  ::-webkit-scrollbar-thumb {
+    /* background: #666; Thumb color */
+    background: var(--bg-scrollbar-track);
+  }
+  
